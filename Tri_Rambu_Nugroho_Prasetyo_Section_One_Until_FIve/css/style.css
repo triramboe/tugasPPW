@@ -1,0 +1,309 @@
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.navbar{
+    z-index: 3;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 20px;
+  
+}
+.nav-link{
+    font-size: 16px;
+    color: #FFF;
+    
+}
+.nav-link:hover{
+    font-weight: 700;
+    color: #FFF;
+}
+
+/*section1*/
+#section1 {
+    background-image: url("../aset/img/fantastic-seascape-with-ripples.jpg");
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.section1-tagline h1{
+    color:#FFF;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 85%;
+
+}
+
+.section1-tagline p{
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    margin-bottom: 80px;
+    margin-top: 15px;
+    text-shadow: 2px 3px 5px #010101;
+    width: 875px;
+    height: 60px;
+   
+}
+.button-tagline {
+    width:253px;
+    height: 54px;
+    background-color: #FFF;
+    color:#06BEE1;
+    border: none;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius:10px;
+    transition: ease-in .5s;
+}
+.button-tagline:hover{
+    width:253px;
+    height: 54px;
+    background-color: #06BEE1;
+    color:#FFF;
+    border: none;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius:10px;
+    transition: ease-in .5s;
+}
+
+
+/*section 2*/
+
+#section2{
+    padding: 100px 0;
+}
+h2{
+    width:365px;
+    height: 137px;
+    font-size: 36px;
+    font-weight: 700;
+    color:#06BEE1;
+    margin-top: 5pxpx;
+}
+.card-section2{
+    width: 100%;
+    height: 428px;
+    border: 4px solid #2541B2;
+    border-radius: 15px;
+    padding: 40px;
+}
+h3{
+    font-size: 24px;
+    font-weight: 700;
+    color:#06BEE1;
+}
+.p-section2{
+    font-size: 20px;
+    color:#03256C;
+    width: 326.02px;
+    height: 160.01px;
+}
+.button-section2{
+    width: 192.5px;
+    height: 77.8px;
+    border: none;
+    border-radius: 30px;
+    background-color: #06BEE1;
+    color:#fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    transition: ease-in .5s;
+}
+.card-section2:hover{
+    width: 100%;
+    height: 428px;
+    border: 4px solid #06BEE1;
+    border-radius: 15px;
+    padding: 40px;
+    transition: ease-in .5s;
+    
+}
+h3:hover{
+    font-size: 24px;
+    font-weight: 700;
+    color:#03256C;
+}
+.button-section2:hover{
+    width: 192.5px;
+    height: 77.8px;
+    border: none;
+    border-radius: 30px;
+    background-color: #03256C;
+    color:#fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    transition: ease-in .5s;
+}
+
+/*section 3*/
+#section3{
+    background-image: url("../aset/img/summer-background-sea-water.jpg");
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+}
+.h1-section3{
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFF;
+    margin-top:50px;
+    padding-top: 50px;
+    margin-bottom: 80px;
+    padding-bottom: 80px;
+}
+.circle-icon{
+    width: 150px;
+    height: 150px;
+    background-color: #FFF;
+    border-radius: 50%;
+    transition: ease-in .5s;
+}
+.icon-section3{
+    width: 81px;
+    height: 81px;
+}
+.p-section3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFF;
+    width: 278px;
+    height: 83px;
+    margin-bottom: 50px;
+}
+.circle-icon:hover{
+    width: 150px;
+    height: 150px;
+    background-color: #03256C;
+    border-radius: 50%;
+    transition: ease-in .5s;
+}
+.icon-section3:hover{
+    width: 81px;
+    height: 81px;
+}
+.p-section3:hover{
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFF;
+    width: 278px;
+    height: 83px;
+}
+
+/*section 4*/
+#section4{
+    background-image: linear-gradient(180deg, #fff, #06BEE1 );
+}
+.img-section4{
+    width: 580px;
+    height: 390px;
+    border-radius: 20px;
+}
+.text-section4{
+    width: 580px;
+    height: 390px;
+}
+.title-text-section4{
+    color: #03256C;
+    font-size: 24px;
+    font-weight: 700;
+}
+.p-section4{
+    color: #03256C;
+    font-size: 20px;
+    font-weight: 400;
+}
+.h2-section4{
+    width: 452px;
+    height: 54px;
+}
+h3.section4{
+    font-size: 28px;
+}
+h2.section4{
+    font-size: 36px;
+}
+h3.project2{
+    color:#FFF;
+}
+h2.project2{
+    color: #FFF;
+}
+.section4-project1{
+    margin-top: 150px;
+}
+
+/*section 5*/
+.h1-section5{
+    font-size: 48px;
+    font-weight: 700;
+    color: #06BEE1;
+}
+
+
+.section5-atas{
+    width: 100%;
+    height: 168px;
+    background-color: #03256C;
+}
+
+iframe{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.button-send{
+    width: 84px;
+    height: 46px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin-top:50px;
+    color: #FFF;
+    background-color: #06BEE1;
+    border: none;
+    border-radius: 10px;
+    transition: ease-in .5s;
+    
+}
+.button-send:hover{
+    width: 84px;
+    height: 46px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin-top:70px;
+    color: #FFF;
+    background-color: #03256C;
+    border: none;
+    border-radius: 10px;
+    transition: ease-in .5s;
+    
+}
+footer{
+    width: 100%;
+    height: 94px;
+    background-color: #03256C;
+}
+footer a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.form{
+    width: 100%;
+}
+
+
