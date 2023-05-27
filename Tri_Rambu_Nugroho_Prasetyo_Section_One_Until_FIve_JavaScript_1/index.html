@@ -24,6 +24,39 @@
         function welcomealert(){
           alert("Welcome to our team");
         }
+      
+      var total = 0;
+
+      function addNewField() {
+        var namaField = prompt("Masukkan Nama Jenis Sampah");
+        var newItemInput = document.createElement("div");
+        newItemInput.classList.add("item-input");
+        newItemInput.style.margin = "5px";
+
+        var itemNameInput = document.createElement("input");
+        itemNameInput.type = "text";
+        itemNameInput.classList.add("item-name");
+
+        newItemInput.appendChild(document.createTextNode(namaField + ": "));
+        newItemInput.appendChild(itemNameInput);
+        document.getElementById("item-container").appendChild(newItemInput);
+        }
+
+      function calculateTotal() {
+        var itemNames = document.getElementsByClassName("item-name");
+        total = 0;
+
+      for (var i = 0; i < itemNames.length; i++) {
+        var itemName = itemNames[i].value;
+
+      if (itemName) {
+        var itemValue = parseFloat(itemName) * 365;
+        total += itemValue;
+        }
+      }
+
+        document.getElementById("total").textContent = total;
+      }
     </script>
 
 
@@ -193,6 +226,35 @@
           <div class="col-lg-6 col-md-12 mb-5">
             <img src="aset/img/section2_1 (4).jpg" alt="" class="img-section4">
           </div>
+        </div>
+      </div>
+    </section>
+    
+    
+     <!-- Kalkulator sampah -->
+     <section class="sampah">
+      <div class="container">
+        <div class="row">
+          <h2>KALKULATOR SAMPAH</h2><br>
+          <p>Berapa banyak sampah yang anda hasilkan?</p>
+        </div>
+        <div id="item-container">
+          <div class="item-input m-1">
+            <label>Botol Plastik: </label>
+            <input type="text" class="item-name" />
+          </div>
+          <div class="item-input m-1">
+            <label>Sedotan: </label>
+            <input type="text" class="item-name" />
+          </div>
+        </div>
+        <div class="btn">
+          <button onclick="addNewField()">Tambah Jenis Sampah</button>
+          <button onclick="calculateTotal()">Dapatkan Total</button>
+        </div>
+        <div id="total-container">
+          <label>Total Keseluruhan: </label>
+          <span id="total">0</span>
         </div>
       </div>
     </section>
