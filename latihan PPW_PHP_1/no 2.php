@@ -1,6 +1,6 @@
 <?php
     $anggota = array (
-        array("Farhan", 504834),
+        array("Rambu", 506574),
         array("Adi", 983549),
         array("Budi", 543482),
         array("Dani", 777463),
