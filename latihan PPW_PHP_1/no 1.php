@@ -1,5 +1,5 @@
 <?php
-    $nama = "farhan";
+    $nama = "rambu";
     $tgl = date("d");
     $n_nama = strlen($nama);
     if ($n_nama == $tgl-2) {
