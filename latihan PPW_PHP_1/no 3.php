@@ -1,5 +1,5 @@
 <?php
-    $nama = array("F", "a", "r", "h", "a", "n");
+    $nama = array("R", "a", "m", "b", "u");
     $kota_tujuan = array("Lampung", "Riau", "Jambi", "Bengkulu", "Makassar", "Kendari", 
                   "Gorontalo", "Samarinda", "Papua", "Nusa Tenggara Barat");
     $kota_didapat = "";
